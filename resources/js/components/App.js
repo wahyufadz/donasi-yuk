@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import Content from './Content';
+
+import NavBar from './navigation/NavBar'
+import ContentRouter from './navigation/ContentRouter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavBar/>
-        <Content/>
+        <ContentRouter/>
       </div>
     );
   }
